@@ -1,85 +1,83 @@
-# Открытый курс OpenDataScience по машинному обучению
+## Open Machine Learning Course
+
 ![ODS stickers](https://github.com/Yorko/mlcourse_open/blob/master/img/ods_stickers.jpg)
 
-## Основные темы
+:arrow_down: *Scroll down for the Russian version* :arrow_down:
+
+:exclamation: The course in English starts on Feb 5, 2018 as a series of Medium articles with assignments and Kaggle Inclass competitions. The 3-rd session (in Russian) launches at the same date. To participate in the course in Russian, please fill in the [form](https://goo.gl/MgsAr3). The course is free but you can support organizers by making a pledge on [Patreon](https://www.patreon.com/ods_mlcourse) :exclamation:
+
+### Outline
+These are the topics of the Medium articles to appear from Feb 5 to Apr 7, 2018. With RUS are given the links to the corresponding Habrahabr articles in Russian (if you don't read Russian, math, code and figures can still give you an idea of what's going on). 
+1. Exploratory data analysis with Pandas, [RUS](https://habrahabr.ru/company/ods/blog/322626/)
+2. Visual data analysis with Python, [RUS](https://habrahabr.ru/company/ods/blog/323210/)
+3. Classification, decision trees and k Nearest Neighbors, [RUS](https://habrahabr.ru/company/ods/blog/322534/)
+4. Linear classification and regression, [RUS](https://habrahabr.ru/company/ods/blog/323890/)
+5. Bagging and random forest, [RUS](https://habrahabr.ru/company/ods/blog/324402/)
+6. Feature engineering and feature selection, [RUS](https://habrahabr.ru/company/ods/blog/325422/)
+7. Unsupervised learning: Principal Component Anslysis and clustering, [RUS](https://habrahabr.ru/company/ods/blog/325654/)
+8. Vowpal Wabbit: learning with gigabytes of data, [RUS](https://habrahabr.ru/company/ods/blog/326418/)
+9. Time series analysis with Python, [RUS](https://habrahabr.ru/company/ods/blog/327242/)
+10. Gradient boosting, [RUS](https://habrahabr.ru/company/ods/blog/327250/) 
+
+### Wiki Pages
+- [Prerequisites: Python, math and DevOps](https://github.com/Yorko/mlcourse_open/wiki/Prerequisites:-Python,-math-and-DevOps) - how to get prepared for the course
+- [Software requirements and Docker container](https://github.com/Yorko/mlcourse_open/wiki/Software-requirements-and-Docker-container) - this will guide you through installing all necessary stuff for working with course materials 
+
+## More info in Russian
+
+:exclamation: 3-ий запуск будет 5 февраля 2018 г., поддержать курс можно на краудфандинговой платформе [Patreon](https://www.patreon.com/ods_mlcourse) :exclamation:
+
+[Анонс](https://habrahabr.ru/company/ods/blog/344044/) курса на Хабре. [Youtube-канал](https://www.youtube.com/playlist?list=PLVlY_7IJCMJdgcCtQfzj5j8OVB_Y0GJCl) c онлайн-трансляциями и записями лекций.
+Курс обсуждается в Slack [OpenDataScience](http://ods.ai/) в канале #mlcourse_open, объявления – в [группе](https://vk.com/club158557357) ВКонтакте.
+
+Цель курса – развить понимание основных концепций машинного обучения (теория) и дать навыки его использования (практика). Поэтому статьи не без математики и поэтому в курсе множество активностей: домашние задания, соревнования на Kaggle Inclass, слушатели сами пишут [тьюториалы](https://github.com/Yorko/mlcourse_open/wiki/Individual-projects-and-tutorials-(in-Russian)) по интересным темам и выполняют [индивидуальные проекты](https://github.com/Yorko/mlcourse_open/wiki/Individual-projects-and-tutorials-(in-Russian)). 
+
+Требуются начальные навыки программирования на Python и знание математики (математический анализ, линейная алгебра, теория вероятностей, математическая статистика) на уровне 2 курса технического ВУЗа. Подробнее – в [Wiki репозитория](https://github.com/Yorko/mlcourse_open/wiki/Prerequisites:-Python,-math-and-DevOps). 
+
+### Статьи на Хабрахабре
 1. [Первичный анализ данных с Pandas](https://habrahabr.ru/company/ods/blog/322626/)
 2. [Визуальный анализ данных с Python](https://habrahabr.ru/company/ods/blog/323210/)
 3. [Классификация, деревья решений и метод ближайших соседей](https://habrahabr.ru/company/ods/blog/322534/)
 4. [Линейные модели классификации и регрессии](https://habrahabr.ru/company/ods/blog/323890/)
-5. Композиции: бэггинг, случайный лес
-6. Обучение без учителя: PCA, кластеризация, поиск аномалий
-7. Искусство построения и отбора признаков. Приложения в задачах обработки текста, изображений и гео-данных
+5. [Композиции: бэггинг, случайный лес](https://habrahabr.ru/company/ods/blog/324402/)
+6. [Построение и отбор признаков](https://habrahabr.ru/company/ods/blog/325422/)
+7. [Обучение без учителя: PCA и кластеризация](https://habrahabr.ru/company/ods/blog/325654/)
+8. [Обучаемся на гигабайтах с Vowpal Wabbit](https://habrahabr.ru/company/ods/blog/326418/)
+9. [Анализ временных рядов с помощью Python](https://habrahabr.ru/company/ods/blog/327242/)
+10. [Градиентный бустинг](https://habrahabr.ru/company/ods/blog/327250/) 
 
-## Домашние задания
-1. [Анализ данных по доходу населения UCI Adult](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_notebooks/topic1_pandas_data_analysis/hw1_adult_pandas.ipynb), [веб-форма](https://goo.gl/forms/63kYBviuDJuFz24E2) для ответов, [решение](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_notebooks/topic1_pandas_data_analysis/%5Bsolution%5D_hw1_adult_pandas.ipynb)
-2. [Визуальный анализ данных о публикациях на Хабрахабре](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_notebooks/topic2_visual_analysis/hw2_habr_visual_analysis.ipynb), [веб-форма](https://goo.gl/forms/p8x0SGmn91VCNB6o2) для ответов, [решение](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_notebooks/topic2_visual_analysis/%5Bsolution%5D_hw2_habr_visual_analysis.ipynb)
-3. [Деревья решений в игрушечной задаче и на данных Adult репозитория UCI](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_notebooks/topic3_decision_trees_knn/hw3_decision_trees.ipynb), [веб-форма](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_notebooks/topic3_decision_trees_knn/hw3_decision_trees.ipynb) для ответов, [решение](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_notebooks/topic3_decision_trees_knn/%5Bsolution%5D_hw3_decision_trees.ipynb)
-4. Линейные модели классификации и регрессии в соревнованиях Kaggle Inclass. [Часть 1: идентификация взломщика](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_notebooks/topic4_linear_models/hw4_part1_websites_logistic_regression.ipynb),  [Часть 2: прогноз популярности статьи на Хабрахабре](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_notebooks/topic4_linear_models/hw4_part2_habr_popularity_ridge.ipynb), [веб-форма](https://goo.gl/forms/6ii1zGEnfJvXhy6E2) для ответов
+### Видеолекции
+1. [Первичный анализ данных с Pandas](https://www.youtube.com/watch?v=dEFxoyJhm3Y)
+2. [Визуальный анализ данных с Seaborn и Matplotlib](https://www.youtube.com/watch?v=vm63p8Od0bM)
+3. [Классификация. Деревья решений](https://www.youtube.com/watch?v=p9Hny3Cs6rk)
+4. [Логистическая регрессия](https://www.youtube.com/watch?v=oTXGQ-_oqvI) + обсуждение [соревнования](https://inclass.kaggle.com/c/catch-me-if-you-can-intruder-detection-through-webpage-session-tracking2) Kaggle
+5. [Случайный лес](https://www.youtube.com/watch?v=G0DmuuFeC30)
+6. [Регрессия, регуляризация](https://www.youtube.com/watch?v=c_EsDMF3rsI)
+7. [Обучение без учителя](https://www.youtube.com/watch?v=qmW968tw3AM)
+8. [Признаки, SGD, Vowpal Wabbit](https://www.youtube.com/watch?v=MnLc7xKSAsk)
+9. [Временные ряды](https://youtu.be/nQjul-5_0_M)
+10. [Градиентный бустинг](https://youtu.be/x5Bz9ChD7N0)
 
-## Соревнования Kaggle Inclass
-1. [Прогноз популярности статьи на Хабре](https://inclass.kaggle.com/c/howpop-habrahabr-favs-lognorm)
-2. [Идентификация взломщика по последовательности переходов по сайтам](https://inclass.kaggle.com/c/catch-me-if-you-can-intruder-detection-through-webpage-session-tracking)
+#### Беседы о Data Science
+11. [Александр Дьяконов](https://www.youtube.com/watch?v=qV3yjIyj7Dc)
+12. [Константин Воронцов](https://youtu.be/DR3mgnEKRgI)
+13. [Евгений Соколов](https://youtu.be/Dmkx6KGrjx8)
 
-## Рейтинг
-В течение курса ведется [рейтинг](https://docs.google.com/spreadsheets/d/1thts1kTZev82aIvTa2MJAioTXjU9NjCPC7sFe1vZiEY/edit?usp=sharing). На него влияют:
- - домашние задания (от 10 до 20 баллов за каждое)
- - соревнования Kaggle Inclass (за каждое 40(1−(p−1)/N) баллов, где p – место участника в приватном рейтинге, N – число участников, побивших все бенчмарки в приватном рейтинге)
- - разовые короткие контесты, объявляемые в slack OpenDataScience в канале #mlcourse_open (от 1 до 5 баллов)
+### Домашние задания
+1. Анализ данных по доходу населения UCI Adult, [ipynb](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_russian/homeworks/hw01_adult_pandas.ipynb)
+2. Визуальный анализ данных о публикациях на Хабрахабре, [ipynb](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_russian/homeworks/hw02_habr_visual_analysis.ipynb)
+3. Деревья решений в игрушечной задаче и на данных Adult репозитория UCI, [ipynb](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_russian/homeworks/hw03_decision_trees.ipynb)
+4. Линейные модели классификации и регрессии в соревнованиях Kaggle Inclass. Часть 1: идентификация взломщика. [ipynb](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_russian/homeworks/hw04_part1_websites_logistic_regression.ipynb) Часть 2: прогноз популярности статьи на Хабрахабре, [ipynb](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_russian/homeworks/hw04_part2_habr_popularity_ridge.ipynb)
+5. Логистическая регрессия и случайный лес в задаче кредитного скоринга, [ipynb](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_russian/homeworks/hw05_logit_rf_credit_scoring.ipynb)
+6. Работа с признаками, [ipynb](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_russian/homeworks/hw06_features.ipynb)
+7. Метод главных компонент, t-SNE и кластеризация, [ipynb](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_russian/homeworks/hw07_pca_tsne_clustering.ipynb)
+8. Предсказание числа просмотров вики-страницы, [ipynb](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_russian/homeworks/hw09_time_series.ipynb)
 
-## Авторы статей и лекторы 
-*(в скобках – ники в OpenDataScience и на Хабрахабре)*
-
-
-#### Юрий Кашницкий (@yorko, [yorko](https://habrahabr.ru/users/yorko/))
-Программист-исследователь Mail.ru Group, старший преподаватель факультета компьютерных наук ВШЭ, научный сотрудник 
-Международной научно-учебной лаборатории интеллектуальных систем и структурного анализа ВШЭ. В прошлом — разработчик Hadoop, бизнес-аналитик и Java-программист РДТЕХ. Домашняя страница https://yorko.github.io/ <br>
-Преподаватель в годовой [программе](https://cs.hse.ru/dpo/bigml) дополнительного образования по анализу данных в ВШЭ, автор Capstone проекта [специализации](https://www.coursera.org/specializations/machine-learning-data-analysis) Яндекса и МФТИ "Машинное обучение и анализ данных"  <br>
-У Юрия есть [репозиторий](https://github.com/Yorko/python_intro) с Jupyter-тетрадками по языку Python и основным алгоритмам и структурам данных
-
-#### Павел Нестеров (@mephistopheies, [mephistopheies](https://habrahabr.ru/users/mephistopheies/))
-Data Scientist в стартапе, который нельзя называть. Раньше - программист-исследователь Mail.Ru Group в департаменте рекламы, позже в департаменте поиска. Преподавал в Техносфере@Mail.Ru на базе МГУ ВМК. Еще раньше - программист-исследователь в сфере компьютерного зрения, до нейросетевой эпохи, в Aspose ltd. Домашняя страница http://pavelnesterov.info/  <br>
-Павел пишет содержательные [статьи](https://habrahabr.ru/users/mephistopheies/topics/) на Хабре по нейронным сетям.
-
-#### Екатерина Демидова (@katya, [cotique](https://habrahabr.ru/users/cotique/))
-Data Scientist в Segmento, г. Санкт-Петербург. Ментор [специализации](https://www.coursera.org/specializations/machine-learning-data-analysis) Яндекса и МФТИ "Машинное обучение и анализ данных"  <br>
-У Кати есть [репозиторий](https://github.com/demidovakatya/vvedenie-mashinnoe-obuchenie) со списком книг/курсов/статей по Data Science
-
-#### Мария Мансурова (@miptgirl, [miptgirl](https://habrahabr.ru/users/miptgirl/))
-Аналитик-разработчик в команде Яндекс.Метрики. До этого в Яндексе работала аналитиком ключевых показателей. В прошлом также успела поработать бизнес-аналитиком в компании-интеграторе в сфере телекоммуникаций. <br>
-
-#### Виталий Радченко (@vradchenko, [vradchenko](https://habrahabr.ru/users/vradchenko/))
-Data Sciece intern @ Ciklum
-
-#### Сергей Королев (@libfun, [libfun](https://habrahabr.ru/users/libfun/))
-Исследователь в СколТехе
-
-#### Арсений Кравченко (@arsenyinfo, [Arseny_Info](https://habrahabr.ru/users/Arseny_Info/))
-Data Science Teamlead @ [gojuno.com](https://gojuno.com/)
-
-#### Дмитрий Сергеев (@dmitryserg)
-Data Scientist @ Zeptolab, лектор в Центре Математических Финансов МГУ
-
-
-# Инструкция по установке Docker-контейнера 
-*(необходимое ПО)*
-
-В курсе используется сборка библиотек Anaconda, тетрадки Jupyter, Xgboost, Vowpal Wabbit и некоторые другие библиотеки. Все это можно не устанавливать, а использовать Docker-контейнер (требования: около 4 Гб места на диске, 4 Гб RAM). [Введение](https://habrahabr.ru/post/310460/) в Docker. Рекомендуется тем, кто использует Windows, c \*NIX проще самостоятельно установить необходимое (см. Dockerfile). 
-
-Инструкция:
-- скачать данный репозиторий
-- на Windows скорее всего придется [включить](http://www.sysprobs.com/disable-enable-virtualization-technology-bios) в BIOS виртуализацию, если раньше не использовали виртуальные машины или Docker
-- установить [Docker](https://docs.docker.com/engine/installation/)
-- установить [Docker Compose](https://docs.docker.com/compose/install/)
-- перейти в командной строке/терминале в скачанный каталог mlcourse_open
-- выполнить docker-compose up. Первый раз это займет продолжительное время
-- открыть localhost:7777 (в файле *docker-compose.yml* можно поменять порт 7777 на любой другой)
-- далее можно выполнить тетрадку [check_docker.ipynb](https://github.com/Yorko/mlcourse_open/blob/master/jupyter_notebooks/check_docker.ipynb) и убедиться, что нужные библиотеки подключаются
-
-Контейнеры Docker, как правило, занимают много места на диске.
-- *docker ps* – посмотреть весь список контейнеров
-- *docker stop $(docker ps -a -q)* – остановить все контейнеры
-- *docker rm $(docker ps -a -q)* – удалить все контейнеры
-- *docker images* - посмотреть весь список образов
-- *docker rmi \<image_id\>* – удалить ненужный образ
-
-Доступная и понятная [документация](https://docs.docker.com/engine/getstarted/) Docker с примерами
+## Wiki-страницы этого репозитория:
+ - [Prerequisites: Python, математика, DevOps](https://github.com/Yorko/mlcourse_open/wiki/Prerequisites:-Python,-math-and-DevOps). О том, как лучше подготовиться к прохождению курса, если навыков программирования или знаний математики не хватает.
+ - [План совместного прохождения курса cs231n c 23.04.2018](https://github.com/Yorko/mlcourse_open/wiki/Passing-cs231n-together-(in-Russian))
+ - [Авторы статей и лекторы](https://github.com/Yorko/mlcourse_open/wiki/Authors-(in-Russian)). Вкратце представляем всех, кто поработал над курсом.
+ - [ПО для прохождения курса и Docker](https://github.com/Yorko/mlcourse_open/wiki/Software-requirements-and-Docker-container) – как настроить все ПО для прохождения курса. В частности, описывается, как запустить у себя Docker-контейнер, в котором уже все установлено.
+ - [Топ-100 1-ой сессии курса](https://github.com/Yorko/mlcourse_open/wiki/Session-1-final-rating-(in-Russian)). 1-я сессия курса прошла с 28 февраля по 10 июня 2017 года – с домашними заданими, соревнованиями, тьюториалами, конкурсами по визуализации и общим рейтингом. Более 500 участников.
+ - [Топ-100 2-ой сессии курса](https://github.com/Yorko/mlcourse_open/wiki/Session-2-final-rating-(in-Russian)).  2-я сессия курса прошла с 6 сентября по 17 ноября 2017 года – добавились индивидуальные проекты. Более 1300 участников.
+ - [Тьюториалы и проекты](https://github.com/Yorko/mlcourse_open/wiki/Individual-projects-and-tutorials-(in-Russian)). Одним из заданий в курсе было написать тьюториал на одну из тем вокруг машинного обучения и анализа данных и выполнить индивидуальный проект по предложенному плану.
